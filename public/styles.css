@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.admin {
+  position: relative;
+  background: rgb(30, 9, 36);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  margin: 2em auto 0 auto;
+  padding: 15px 0 40px 0;
+  border-radius: 6px;
+}
+.admin h1 {
+  color: rgb(189, 189, 189);
+}
+.admin form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 80%;
+  margin-top: 4em;
+}
+.admin form input {
+  font-size: 17px;
+  padding: 5px 6px;
+}
+.admin form input:focus {
+  outline: none;
+}
+.admin form div {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.admin form div button {
+  font-size: 17px;
+  padding: 9px 6px;
+  border: none;
+  background: rgb(8, 99, 20);
+  color: white;
+  border-radius: 6px;
+  font-weight: 550;
+  cursor: pointer;
+}
+.admin form div button:hover {
+  background: rgb(49, 49, 122);
+}
+.admin form .custom-file-upload input[type=file] {
+  display: none;
+}
+.admin form .custom-file-upload label {
+  display: inline-block;
+  background-color: #23272c;
+  color: rgba(232, 232, 232, 0.8784313725);
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+.admin form .custom-file-upload label:hover {
+  background-color: #0a3057;
+}
+.admin form .custom-file-upload #file-name {
+  margin-left: 12px;
+  color: grey;
+}/*# sourceMappingURL=styles.css.map */
